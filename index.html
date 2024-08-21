@@ -21,7 +21,11 @@
                     colors: {
                         clifford: '#da373d',
                         'clr-pri': '#ABEF5F',
-                         'halka-gr': 'rgba(171, 239, 95, 0.5)',
+                        'halka-gr': 'rgba(171, 239, 95, 0.5)',
+                        'cl-pink': '#E7C1D3',
+                        'clr-yellow': '#EFDA6E',
+                        'clr-green': '#A4DAC3',
+                        'clr-blue': '#77AAEA',
 
                     }
                 }
@@ -36,99 +40,99 @@
         <div class="container mx-auto ">
             <!-- navber -->
             <nav class="">
-                    <div class="navbar  bg-gradient-to-r">
-                        <div class="navbar-start">
-                            <!-- logo section -->
-                            <div class="flex space-x-2 p-2  justify-center items-center">
-                                <!-- icon -->
-                                <div class="bg-clr-pri w-8 h-8 rounded-full  p-2 relative ">
-                                    <i class="fa-solid fa-arrow-right -rotate-45 absolute "></i>
-                                </div>
-                                <div>
-                                    <a class=" text-3xl font-bold">Rinterio</a>
-                                </div>
+                <div class="navbar  bg-gradient-to-r">
+                    <div class="navbar-start">
+                        <!-- logo section -->
+                        <div class="flex space-x-2 p-2  justify-center items-center">
+                            <!-- icon -->
+                            <div class="bg-clr-pri w-8 h-8 rounded-full  p-2 relative ">
+                                <i class="fa-solid fa-arrow-right -rotate-45 absolute "></i>
                             </div>
-                        </div>
-                        <!-- middle nav -->
-                        <div class="navbar-center hidden lg:flex">
-                            <ul class="menu menu-horizontal px-1 justify-center items-center space-x-4">
-                                <a class="opacity-85 hover:font-semibold">Home</a>
-                                <a class="opacity-85 hover:font-semibold">Services</a>
-                                <a class="opacity-85 hover:font-semibold">Portfolio</a>
-                                <a class="opacity-85 hover:font-semibold">Blogs</a>
-                                <a class="opacity-85 hover:font-semibold">Contact us</a>
-                            </ul>
-                        </div>
-                        <div class="navbar-end">
-                            <!-- iconss -->
-                            <div class="hidden lg:flex space-x-2">
-                                <!-- search icon -->
-                                <div class="">
-                                    <button class="btn btn-ghost  btn-circle bg-white opacity-85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-                                            viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                                        </svg>
-                                    </button>
-                                </div>
-                                <!-- cart icon -->
-                                <div>
-                                    <button class="btn btn-ghost  btn-circle bg-white opacity-85">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-                                            viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                                        </svg>
-                                    </button>
-                                </div>
-                                <!-- book conseltant -->
-                                <div>
-                                    <div class="flex space-x-2 p-2  justify-center items-center bg-clr-pri rounded-3xl">
-                                        <div>
-                                            <a class=" text-xl font-semibold">Book Consultant</a>
-                                        </div>
-                                        <!-- icon -->
-                                        <div class="bg-black w-8 h-8 rounded-full  p-2 relative text-white  ">
-                                            <i class="fa-solid fa-arrow-right -rotate-45 absolute "></i>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- icon drop down -->
-                            <div class="dropdown">
-                                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                                    <label class="btn btn-circle swap swap-rotate">
-                                        <!-- this hidden checkbox controls the state -->
-                                        <input type="checkbox" />
-                                        <!-- hamburger icon -->
-                                        <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32"
-                                            height="32" viewBox="0 0 512 512">
-                                            <path
-                                                d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-                                        </svg>
-
-                                        <!-- close icon -->
-                                        <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32"
-                                            height="32" viewBox="0 0 512 512">
-                                            <polygon
-                                                points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-                                        </svg>
-                                    </label>
-
-                                </div>
-                                <ul tabindex="0"
-                                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                                    <li><a class="opacity-85 hover:font-semibold">Home</a></li>
-                                    <li><a class="opacity-85 hover:font-semibold">Services</a></li>
-                                    <li><a class="opacity-85 hover:font-semibold">Portfolio</a></li>
-                                    <li><a class="opacity-85 hover:font-semibold">Blogs</a></li>
-                                    <li><a class="opacity-85 hover:font-semibold">Contact us</a></li>
-                                </ul>
+                            <div>
+                                <a class=" text-3xl font-bold">Rinterio</a>
                             </div>
                         </div>
                     </div>
+                    <!-- middle nav -->
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 justify-center items-center space-x-4">
+                            <a class="opacity-85 hover:font-semibold">Home</a>
+                            <a class="opacity-85 hover:font-semibold">Services</a>
+                            <a class="opacity-85 hover:font-semibold">Portfolio</a>
+                            <a class="opacity-85 hover:font-semibold">Blogs</a>
+                            <a class="opacity-85 hover:font-semibold">Contact us</a>
+                        </ul>
+                    </div>
+                    <div class="navbar-end">
+                        <!-- iconss -->
+                        <div class="hidden lg:flex space-x-2">
+                            <!-- search icon -->
+                            <div class="">
+                                <button class="btn btn-ghost  btn-circle bg-white opacity-85">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <!-- cart icon -->
+                            <div>
+                                <button class="btn btn-ghost  btn-circle bg-white opacity-85">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                        viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <!-- book conseltant -->
+                            <div>
+                                <div class="flex space-x-2 p-2  justify-center items-center bg-clr-pri rounded-3xl">
+                                    <div>
+                                        <a class=" text-xl font-semibold">Book Consultant</a>
+                                    </div>
+                                    <!-- icon -->
+                                    <div class="bg-black w-8 h-8 rounded-full  p-2 relative text-white  ">
+                                        <i class="fa-solid fa-arrow-right -rotate-45 absolute "></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- icon drop down -->
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <label class="btn btn-circle swap swap-rotate">
+                                    <!-- this hidden checkbox controls the state -->
+                                    <input type="checkbox" />
+                                    <!-- hamburger icon -->
+                                    <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32"
+                                        height="32" viewBox="0 0 512 512">
+                                        <path
+                                            d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                                    </svg>
+
+                                    <!-- close icon -->
+                                    <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32"
+                                        height="32" viewBox="0 0 512 512">
+                                        <polygon
+                                            points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+                                    </svg>
+                                </label>
+
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a class="opacity-85 hover:font-semibold">Home</a></li>
+                                <li><a class="opacity-85 hover:font-semibold">Services</a></li>
+                                <li><a class="opacity-85 hover:font-semibold">Portfolio</a></li>
+                                <li><a class="opacity-85 hover:font-semibold">Blogs</a></li>
+                                <li><a class="opacity-85 hover:font-semibold">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             </nav>
 
@@ -136,35 +140,37 @@
             <div>
                 <div class="hero bg-base-200 py-14">
                     <div class="hero-content flex-col items-center justify-center text-center">
-                      <img
-                        src="assets/banner.png"
-                        class=" rounded-lg " />
-                      <div>
-                        <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
-                        <p class="py-6">
-                            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
-                        </p>
-                         <!-- button -->
-                         <button type="button " class="">
-                            <div class="flex space-x-2 p-2  bg-halka-gr border-[#ABEF5F] items-center border-2 rounded-3xl">
-                                <div>
-                                    <a class=" text-xl font-semibold">View Details</a>
-                                </div>
-                                <!-- icon -->
-                                <div class="bg-clr-pri w-8 h-8 rounded-full  p-2 relative text-white ">
-                                    <i class="fa-solid fa-arrow-right -rotate-45 absolute   left-[25%] top-[25%]"></i>
-                                </div>
-    
-                        </button>
+                        <img src="assets/banner.png" class=" rounded-lg " />
+                        <div>
+                            <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                            <p class="py-6">
+                                The barn house captivates with its blend of rustic charm and modern sophistication,
+                                featuring weathered wood, sleek metal accents, and large windows that flood the space
+                                with natural light.
+                            </p>
+                            <!-- button -->
+                            <button type="button " class="">
+                                <div
+                                    class="flex space-x-2 p-2  bg-halka-gr border-[#ABEF5F] items-center border-2 rounded-3xl">
+                                    <div>
+                                        <a class=" text-xl font-semibold">View Details</a>
+                                    </div>
+                                    <!-- icon -->
+                                    <div class="bg-clr-pri w-8 h-8 rounded-full  p-2 relative text-white ">
+                                        <i
+                                            class="fa-solid fa-arrow-right -rotate-45 absolute   left-[25%] top-[25%]"></i>
+                                    </div>
+
+                            </button>
 
                         </div>
-                        
-                      </div>
-                    </div >
-                  
-                  </div>
+
+                    </div>
+                </div>
 
             </div>
+
+        </div>
 
         </div>
 
@@ -173,65 +179,149 @@
     <!-- main -->
     <main>
         <!-- design thougthful -->
-         <section class="bg-base-300 ">
-            <div class="container mx-auto lg:py-12 py-8relative">
+        <section class="bg-base-300 ">
+            <div class="container mx-auto lg:py-12 py-8 relative">
                 <img src="assets/Vector.png" alt="" class="absolute -left-11 hidden lg:block">
                 <!-- hero conyent -->
                 <div class=" ">
                     <div class="hero  py-9">
                         <div class="hero-content grid grid-cols-1 lg:flex text-center lg:text-start ">
-                          <div class="">
-                            <!-- button -->
-                            <button type="button " class="">
-                                <div class="flex space-x-1 pr-2  bg-base-100  items-center border-2 rounded-3xl">
-                                    <!-- icon -->
-                                    <div class=" w-8 h-8 rounded-full  pr-2 relative">
-                                        <i class="fa-solid fa-arrow-right absolute   left-[25%] top-[25%]"></i>
+                            <div class="">
+                                <!-- button -->
+                                <button type="button " class="">
+                                    <div class="flex space-x-1 pr-2  bg-base-100  items-center border-2 rounded-3xl">
+                                        <!-- icon -->
+                                        <div class=" w-8 h-8 rounded-full  pr-2 relative">
+                                            <i class="fa-solid fa-arrow-right absolute   left-[25%] top-[25%]"></i>
+                                        </div>
+                                        <div>
+                                            <a class=" text-xl font-semibold">About Us</a>
+                                        </div>
+
+                                </button>
+
+                                <h1 class="text-5xl font-bold py-6">We design thoughtful, liveable spaces</h1>
+                                <p class="py-6 lg:hidden ">
+                                    The barn house captivates with its blend of rustic charm and modern sophistication,
+                                    featuring weathered wood, sleek metal accents.
+                                </p>
+                                <p class="lg:py-6 hidden lg:block">
+                                    as
+                                </p>
+                                <!-- card 1 -->
+                                <div
+                                    class="bg-base-100 rounded-xl flex p-6 space-x-4 justify-center lg:items-center mb-6 text-start">
+                                    <div>
+                                        <img src="assets/commercial.png" alt="">
                                     </div>
                                     <div>
-                                        <a class=" text-xl font-semibold">About Us</a>
+                                        <h3 class="font-semibold">Commercial</h3>
+                                        <p class="opacity-85">The barn house captivates with its blend of rustic charm
+                                            and modern.additionally it is comfortable.</p>
                                     </div>
-        
-                            </button>
+                                </div>
+                                <!-- card 2 -->
+                                <div
+                                    class="bg-base-100 rounded-xl flex p-6 space-x-4 justify-center lg:items-center text-start">
+                                    <div>
+                                        <img src="assets/residential.png" alt="">
+                                    </div>
+                                    <div class="space-y-2">
+                                        <h3 class="font-semibold">Residential</h3>
+                                        <p class="opacity-85">The barn house captivates with its blend of rustic charm
+                                            and modern.additionally it is comfortable.</p>
+                                    </div>
+                                </div>
 
-                            <h1 class="text-5xl font-bold py-6">We design thoughtful, liveable spaces</h1>
-                            <p class="py-6 lg:hidden ">
-                                The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.
-                            </p>
-                            <p class="lg:py-6 hidden lg:block">
-                               as
-                            </p>
-                           <!-- card 1 -->
-                            <div class="bg-base-100 rounded-xl flex p-6 space-x-4 justify-center lg:items-center mb-6 text-start">
-                                <div>
-                                    <img src="assets/commercial.png" alt="">
-                                </div>
-                                <div>
-                                    <h3 class="font-semibold">Commercial</h3>
-                                    <p class="opacity-85">The barn house captivates with its blend of rustic charm and modern.</p>
-                                </div>
                             </div>
-                            <!-- card 2 -->
-                            <div class="bg-base-100 rounded-xl flex p-6 space-x-4 justify-center lg:items-center text-start">
-                                <div>
-                                    <img src="assets/residential.png" alt="">
-                                </div>
-                                <div class="space-y-2">
-                                    <h3 class="font-semibold">Residential</h3>
-                                    <p class="opacity-85">The barn house captivates with its blend of rustic charm and modern.</p>
-                                </div>
-                            </div>
-                            
-                          </div>
-                          <img
-                            src="assets/Rectangle.png"
-                            class=" rounded-lg shadow-2xl" />
+                            <img src="assets/Rectangle.png" class=" rounded-lg shadow-2xl" />
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
 
-         </section>
+            <!-- Our work process -->
+            <div class="container mx-auto lg:py-12 py-8 px-4">
+                <!-- description + button -->
+                <div class="text-center lg:w-[60%] mx-auto lg:space-y-4 lg:mb-5 space-y-3">
+                    <!-- button -->
+                    <button type="button " class="">
+                        <div class="flex space-x-1 pr-2  bg-base-100  items-center border-2 rounded-3xl">
+                            <!-- icon -->
+                            <div class=" w-8 h-8 rounded-full  pr-2 relative">
+                                <i class="fa-solid fa-arrow-right absolute   left-[25%] top-[25%]"></i>
+                            </div>
+                            <div>
+                                <a class=" text-xl font-semibold">How we works</a>
+                            </div>
+
+                    </button>
+                    <h1 class="text-5xl font-bold">Our Works Process</h1>
+                    <p class="py-6">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents.
+                    </p>
+
+
+
+                </div>
+
+                <!-- cards container -->
+                <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 ">
+                    <!-- card 1 -->
+                    <div class="rounded-xl bg-cl-pink p-5 space-y-2">
+                        <figure>
+                            <img src="assets/concept.png" alt="" />
+                        </figure>
+                        <div class="space-y-2">
+                            <h2 class="card-title">Concept</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+                        </div>
+
+                    </div>
+                    <!-- card 2 -->
+                    <div class="rounded-xl bg-clr-yellow p-5 space-y-2">
+                        <figure>
+                            <img src="assets/flow-chart.png" alt="" />
+                        </figure>
+                        <div class="space-y-2">
+                            <h2 class="card-title">Design Process</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+                        </div>
+
+                    </div>
+                    <!-- card 3 -->
+                    <div class="rounded-xl bg-clr-green p-5 space-y-2">
+                        <figure>
+                            <img src="assets/vision.png" alt="" />
+                        </figure>
+                        <div class="space-y-2">
+                            <h2 class="card-title">Supervision</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+                        </div>
+
+                    </div>
+                    <!-- card 4 -->
+                    <div class="rounded-xl bg-clr-blue p-5 space-y-2">
+                        <figure>
+                            <img src="assets/budget-planning.png" alt="" />
+                        </figure>
+                        <div class="space-y-2">
+                            <h2 class="card-title">Budget Planning</h2>
+                            <p>The barn house captivates with its blend of rustic charm and modern.</p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
     </main>
 
     <!-- footer -->

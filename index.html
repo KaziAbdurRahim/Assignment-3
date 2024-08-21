@@ -21,6 +21,8 @@
                     colors: {
                         clifford: '#da373d',
                         'clr-pri': '#ABEF5F',
+                         'halka-gr': 'rgba(171, 239, 95, 0.5)',
+
                     }
                 }
             }
@@ -30,11 +32,11 @@
 
 <body>
     <!-- header -->
-    <header class=" bg-gradient-to-r from-slate-50 to-white">
+    <header class=" bg-base-200">
         <div class="container mx-auto ">
             <!-- navber -->
             <nav class="">
-                    <div class="navbar bg-base-100 bg-gradient-to-r">
+                    <div class="navbar  bg-gradient-to-r">
                         <div class="navbar-start">
                             <!-- logo section -->
                             <div class="flex space-x-2 p-2  justify-center items-center">
@@ -90,7 +92,6 @@
                                         <div class="bg-black w-8 h-8 rounded-full  p-2 relative text-white  ">
                                             <i class="fa-solid fa-arrow-right -rotate-45 absolute "></i>
                                         </div>
-
                                     </div>
                                 </div>
 
@@ -130,6 +131,40 @@
                     </div>
 
             </nav>
+
+            <!-- banner -->
+            <div>
+                <div class="hero bg-base-200 py-14">
+                    <div class="hero-content flex-col items-center justify-center text-center">
+                      <img
+                        src="assets/banner.png"
+                        class=" rounded-lg " />
+                      <div>
+                        <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                        <p class="py-6">
+                            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                        </p>
+                         <!-- button -->
+                         <button type="button " class="">
+                            <div class="flex space-x-2 p-2  bg-halka-gr border-[#ABEF5F] items-center border-2 rounded-3xl">
+                                <div>
+                                    <a class=" text-xl font-semibold">View Details</a>
+                                </div>
+                                <!-- icon -->
+                                <div class="bg-clr-pri w-8 h-8 rounded-full  p-2 relative text-white ">
+                                    <i class="fa-solid fa-arrow-right -rotate-45 absolute   left-[25%] top-[25%]"></i>
+                                </div>
+    
+                        </button>
+
+                        </div>
+                        
+                      </div>
+                    </div >
+                  
+                  </div>
+
+            </div>
 
         </div>
 

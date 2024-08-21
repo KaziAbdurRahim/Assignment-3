@@ -26,6 +26,8 @@
                         'clr-yellow': '#EFDA6E',
                         'clr-green': '#A4DAC3',
                         'clr-blue': '#77AAEA',
+                        'clr-black': '# #1C1C1C',
+
 
                     }
                 }
@@ -142,7 +144,8 @@
                     <div class="hero-content flex-col items-center justify-center text-center">
                         <img src="assets/banner.png" class=" rounded-lg " />
                         <div>
-                            <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                            <h1 class="text-3xl lg:text-5xl font-bold">A barn house of this design has a striking
+                                appearance</h1>
                             <p class="py-6">
                                 The barn house captivates with its blend of rustic charm and modern sophistication,
                                 featuring weathered wood, sleek metal accents, and large windows that flood the space
@@ -200,7 +203,8 @@
 
                                 </button>
 
-                                <h1 class="text-5xl font-bold py-6">We design thoughtful, liveable spaces</h1>
+                                <h1 class="text-2xl lg:text-5xl font-bold py-6">We design thoughtful, liveable spaces
+                                </h1>
                                 <p class="py-6 lg:hidden ">
                                     The barn house captivates with its blend of rustic charm and modern sophistication,
                                     featuring weathered wood, sleek metal accents.
@@ -256,7 +260,7 @@
                             </div>
 
                     </button>
-                    <h1 class="text-5xl font-bold">Our Works Process</h1>
+                    <h1 class="lg:text-5xl text-3xl font-bold">Our Works Process</h1>
                     <p class="py-6">
                         The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.
@@ -325,7 +329,50 @@
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="footer footer-center text-primary-content p-10 bg-black">
+        <aside class="space-y-2 lg:w-[70%] mx-auto">
+            <!-- logo section -->
+            <div class="flex space-x-2 p-2  justify-center items-center">
+                <!-- icon -->
+                <div class="bg-clr-pri w-8 h-8 rounded-full  p-2 relative ">
+                    <i class="fa-solid fa-arrow-right -rotate-45 absolute left-[30%] top-[25%] text-black"></i>
+                </div>
+                <div>
+                    <a class=" text-3xl font-bold">Rinterio</a>
+                </div>
+            </div>
+            <p class="opacity-80">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered
+                wood, sleek metal accents.
+
+            </p>
+            <ul class=" lg:flex lg:space-x-4">
+                <li class="mb-2">Home</li>
+                <li class="mb-2">Services</li>
+                <li class="mb-2">Portfolio</li>
+                <li class="mb-2">Blogs</li>
+                <li class="mb-2">Contact us</li>
+            </ul>
+        </aside>
+        <nav>
+            <!-- book conseltant -->
+            <button class="btn rounded-3xl bg-clr-pri">
+                <div>
+                    <div class="flex space-x-2 p-2  justify-center items-center  ">
+                        <div>
+                            <a class=" text-xl font-semibold text-black">Book Consultant</a>
+                        </div>
+                        <!-- icon -->
+                        <div class="bg-black w-8 h-8 rounded-full  p-2 relative text-white  ">
+                            <i class="fa-solid fa-arrow-right -rotate-45 absolute left-[30%] top-[25%]"></i>
+                        </div>
+                    </div>
+                </div>
+            </button>
+
+
+        </nav>
+    </footer>
 
 </body>
 
